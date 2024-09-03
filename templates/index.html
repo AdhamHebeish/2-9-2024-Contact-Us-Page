@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="static/styles.css" />
+    <link rel="icon" href="static/icon.svg" />
+    <title>Contact Us Page</title>
+</head>
+<body>
+    <div id="body">
+        <h1 class="s2">Contact Us Form</h1>
+        <form action="/excelify" method="post" autocomplete="off">
+            <p class="s4">Please fill out these feilds.</p>
+            <div>
+                <label class="s4">Your Email:</label>
+                <input class="input" type="text" name="email" placeholder="Gmail, Yahoo, Microsoft or Outlook."/>
+            </div>
+            <div>
+                <label class="s4">Your Phone Number:</label>
+                <input class="input" type="text" name="phone" />
+            </div>
+            <div>
+                <label class="s4">A message:</label>
+                <input class="input" type="text" name="message" />
+            </div>
+            <div>
+                <input id="button" type="submit" value="Send to Server" />
+            </div>
+        </form>
+        <div id="errdiv">
+            <p class="s4">{{errcode}}</p>
+        </div>
+    </div>
+</body>
+</html>

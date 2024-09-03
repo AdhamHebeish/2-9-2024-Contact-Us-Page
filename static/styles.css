@@ -1,0 +1,92 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #053c6d;
+}
+
+/*Start Font Formatting*/
+
+.ns1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 4em;
+}
+
+.s0 {
+    font-family: Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+.s1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+.s2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.8em;
+}
+
+.s3 {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.6em;
+}
+
+.s4 {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.4em;
+}
+
+.s5 {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+}
+
+p {
+    font-family: Garamond, serif;
+    font-size: 1em;
+}
+
+/*End Font Formatting*/
+
+#body {
+    margin: 50px 20%;
+    padding: 5px;
+    background-color: #ffffff;
+    border: 2px solid #777777;
+    border-radius: 7px;
+    color: #000000;
+    text-align: center;
+}
+
+.input {
+    margin: 5px 5px 5px 15px;
+    outline: 0;
+    border: 0;
+    width: 50%;
+}
+
+.input:focus-visible {
+    outline: 0;
+    border-bottom: 1px solid #000000;
+}
+
+#button {
+    outline: 0;
+    border: 0;
+    box-shadow: 0;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #053c6d;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#button:hover {
+    background-color: #05243e;
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+}
